@@ -1,0 +1,50 @@
+FileOpenedAction 1476877469993 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1476877719662 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1476877830830 TestPlanetExplorer.java ADD Spreadsheet sheet FIELD
+RefactoringAction 1476877877568 TestPlanetExplorer.java REMOVE sheet FIELD
+RefactoringAction 1476877879081 TestPlanetExplorer.java ADD TestPlanet test FIELD
+RefactoringAction 1476880057428 PlanetExplorer.java ADD int positionX FIELD
+RefactoringAction 1476880057430 PlanetExplorer.java ADD int positionY FIELD
+RefactoringAction 1476880057430 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1476880057431 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1476880057431 PlanetExplorer.java ADD String encounteredObstacles FIELD
+RefactoringAction 1476880057432 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476880057432 PlanetExplorer.java ADD int gridY FIELD
+RefactoringAction 1476880057433 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1476880057433 PlanetExplorer.java ADD String executeCommand(String)/2 METHOD
+RefactoringAction 1476880095503 PlanetExplorer.java REMOVE encounteredObstacles FIELD
+RefactoringAction 1476880095504 PlanetExplorer.java REMOVE positionY FIELD
+RefactoringAction 1476880095505 PlanetExplorer.java REMOVE gridX FIELD
+RefactoringAction 1476880095506 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1476880095507 PlanetExplorer.java REMOVE positionX FIELD
+RefactoringAction 1476880095508 PlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1476880095508 PlanetExplorer.java REMOVE gridY FIELD
+RefactoringAction 1476880098534 PlanetExplorer.java ADD int positionX FIELD
+RefactoringAction 1476880098535 PlanetExplorer.java ADD int positionY FIELD
+RefactoringAction 1476880098536 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1476880098537 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1476880098538 PlanetExplorer.java ADD String encounteredObstacles FIELD
+RefactoringAction 1476880098539 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476880098540 PlanetExplorer.java ADD int gridY FIELD
+RefactoringAction 1476880155565 PlanetExplorer.java REMOVE encounteredObstacles FIELD
+RefactoringAction 1476880155566 PlanetExplorer.java REMOVE positionY FIELD
+RefactoringAction 1476880155566 PlanetExplorer.java REMOVE gridX FIELD
+RefactoringAction 1476880155567 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1476880155568 PlanetExplorer.java REMOVE positionX FIELD
+RefactoringAction 1476880155569 PlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1476880155570 PlanetExplorer.java REMOVE gridY FIELD
+RefactoringAction 1476880156593 PlanetExplorer.java ADD int positionX FIELD
+RefactoringAction 1476880156594 PlanetExplorer.java ADD int positionY FIELD
+RefactoringAction 1476880156595 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1476880156595 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1476880156596 PlanetExplorer.java ADD String encounteredObstacles FIELD
+RefactoringAction 1476880156597 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476880156598 PlanetExplorer.java ADD int gridY FIELD
+RefactoringAction 1476880165120 PlanetExplorer.java ADD int positionX FIELD
+RefactoringAction 1476880165121 PlanetExplorer.java ADD int positionY FIELD
+RefactoringAction 1476880165121 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1476880165122 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1476880165123 PlanetExplorer.java ADD String encounteredObstacles FIELD
+RefactoringAction 1476880165123 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476880165124 PlanetExplorer.java ADD int gridY FIELD
+EditAction 1476880440448 PlanetExplorer.java 5436 14 34 0
