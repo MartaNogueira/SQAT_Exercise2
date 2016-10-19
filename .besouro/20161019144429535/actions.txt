@@ -48,3 +48,4 @@ RefactoringAction 1476880165123 PlanetExplorer.java ADD String encounteredObstac
 RefactoringAction 1476880165123 PlanetExplorer.java ADD int gridX FIELD
 RefactoringAction 1476880165124 PlanetExplorer.java ADD int gridY FIELD
 EditAction 1476880440448 PlanetExplorer.java 5436 14 34 0
+EditAction 1476880440614 TestPlanetExplorer.java 184 1 0 0
