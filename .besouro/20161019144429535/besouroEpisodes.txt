@@ -8,3 +8,5 @@
 1476881710725 test-last 1 4240 false
 1476881710726 test-last 1 4240 false
 1476881710727 test-last 1 4240 false
+1476881767373 test-addition 2 10 true
+1476881767374 test-addition 1 10 true
