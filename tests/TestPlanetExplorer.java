@@ -47,10 +47,10 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void testExecuteCommandFFRFwithObstacle02() {
-		PlanetExplorer planetExplorer = new PlanetExplorer(3, 3, "(0,2)");
+		PlanetExplorer planetExplorer = new PlanetExplorer(3, 3, "(1,5)");
 		String testString = planetExplorer.executeCommand("ffrf");
 
-		assertEquals("(1,1,E)(0,2)", testString);
+		assertEquals("(1,1,E)(1,5)", testString);
 	}
 
 	@Test

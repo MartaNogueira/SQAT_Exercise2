@@ -81,3 +81,6 @@ RefactoringAction 1476881520745 PlanetExplorer.java RENAME positionY=>int posiY 
 RefactoringAction 1476881520893 PlanetExplorer.java RENAME posiY=>int positionY FIELD
 RefactoringAction 1476881521043 PlanetExplorer.java RENAME positionY=>int posiY FIELD
 EditAction 1476881701398 PlanetExplorer.java 5229 14 34 0
+UnitTestCaseAction 1476881710717 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881710718 TestPlanetExplorer.java OK
+EditAction 1476881756715 TestPlanetExplorer.java 2600 10 34 14
