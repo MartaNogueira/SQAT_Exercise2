@@ -49,3 +49,35 @@ RefactoringAction 1476880165123 PlanetExplorer.java ADD int gridX FIELD
 RefactoringAction 1476880165124 PlanetExplorer.java ADD int gridY FIELD
 EditAction 1476880440448 PlanetExplorer.java 5436 14 34 0
 EditAction 1476880440614 TestPlanetExplorer.java 184 1 0 0
+CompilationAction 1476880443346 TestPlanetExplorer.java
+RefactoringAction 1476880472159 TestPlanetExplorer.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1476880505175 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
+RefactoringAction 1476880506229 TestPlanetExplorer.java ADD void testUpdatePositionF() METHOD
+RefactoringAction 1476880506229 TestPlanetExplorer.java ADD void testExecuteCommandFFRF() METHOD
+RefactoringAction 1476880506230 TestPlanetExplorer.java ADD void testExecuteCommandFFLLLF() METHOD
+RefactoringAction 1476880506230 TestPlanetExplorer.java ADD void testExecuteCommandFBFFRF() METHOD
+RefactoringAction 1476880506230 TestPlanetExplorer.java ADD void testExecuteCommandFFR() METHOD
+RefactoringAction 1476880506231 TestPlanetExplorer.java ADD void testExecuteCommandFFRFwithObstacle02() METHOD
+RefactoringAction 1476880506231 TestPlanetExplorer.java ADD void testExecuteCommandFFRFwithObstacle02and11() METHOD
+RefactoringAction 1476880506232 TestPlanetExplorer.java ADD void testExecuteCommandFFFtopBorder() METHOD
+RefactoringAction 1476880506232 TestPlanetExplorer.java ADD void testExecuteCommandRFFFRrightBorder() METHOD
+RefactoringAction 1476880506232 TestPlanetExplorer.java ADD void testGetObstacles() METHOD
+RefactoringAction 1476880524259 TestPlanetExplorer.java RENAME testUpdatePositionF()=>void testPositionF() METHOD
+RefactoringAction 1476880750354 PlanetExplorer.java ADD PlanetExplorer() METHOD
+RefactoringAction 1476880939054 PlanetExplorer.java REMOVE PlanetExplorer() METHOD
+RefactoringAction 1476880953607 TestPlanetExplorer.java REMOVE import org.junit.Test IMPORT
+RefactoringAction 1476881015130 TestPlanetExplorer.java ADD import org.junit.Assert.*/2 IMPORT
+RefactoringAction 1476881015131 TestPlanetExplorer.java ADD import org.junit.Test IMPORT
+RefactoringAction 1476881061752 TestPlanetExplorer.java REMOVE import org.junit.Assert.*/2 IMPORT
+RefactoringAction 1476881140841 TestPlanetExplorer.java ADD import org.junit.Test/2 IMPORT
+RefactoringAction 1476881155859 TestPlanetExplorer.java ADD import org.junit.Assert.*/2 IMPORT
+RefactoringAction 1476881175880 TestPlanetExplorer.java RENAME test_executeCommand()=>void testUpdatePositionF() METHOD
+RefactoringAction 1476881484643 PlanetExplorer.java RENAME positionX=>int posiX FIELD
+RefactoringAction 1476881491164 PlanetExplorer.java RENAME posiX=>int posi FIELD
+RefactoringAction 1476881493689 PlanetExplorer.java RENAME posi=>int posiX FIELD
+RefactoringAction 1476881500420 PlanetExplorer.java RENAME posiX=>int positionX FIELD
+RefactoringAction 1476881501130 PlanetExplorer.java RENAME positionX=>int posiX FIELD
+RefactoringAction 1476881520745 PlanetExplorer.java RENAME positionY=>int posiY FIELD
+RefactoringAction 1476881520893 PlanetExplorer.java RENAME posiY=>int positionY FIELD
+RefactoringAction 1476881521043 PlanetExplorer.java RENAME positionY=>int posiY FIELD
+EditAction 1476881701398 PlanetExplorer.java 5229 14 34 0

@@ -5,8 +5,8 @@
 
 public class PlanetExplorer {
 
-	int positionX;
-	int positionY;
+	int posiX;
+	int posiY;
 	String direction;
 	String obstacles;
 	String encounteredObstacles;
@@ -25,8 +25,8 @@ public class PlanetExplorer {
 		 * PlanetExplorer(100,100,"(5,5)(7,8)")
 		 * 
 		 */
-		positionX = 0;
-		positionY = 0;
+		posiX = 0;
+		posiY = 0;
 		this.setDirection("N");
 		this.obstacles = obstacles;
 		this.setEncounteredObstacles("");
@@ -34,6 +34,8 @@ public class PlanetExplorer {
 		this.gridY = y;
 
 	}
+
+	
 
 	public String executeCommand(String command) {
 
@@ -62,26 +64,26 @@ public class PlanetExplorer {
 			encounteredObstacles = "()";
 		}
 
-		returnString = "(" + positionX + "," + positionY + "," + direction + ")" + encounteredObstacles;
+		returnString = "(" + posiX + "," + posiY + "," + direction + ")" + encounteredObstacles;
 
 		return returnString;
 
 	}
 
 	public int getPositionX() {
-		return positionX;
+		return posiX;
 	}
 
-	public void setPositionX(int startingX) {
-		this.positionX = startingX;
+	public void setPositionX(int startX) {
+		this.posiX = startX;
 	}
 
 	public int getPositionY() {
-		return positionY;
+		return posiY;
 	}
 
-	public void setPositionY(int startingY) {
-		this.positionY = startingY;
+	public void setPositionY(int startY) {
+		this.posiY = startY;
 	}
 
 	public String getObstacles() {
@@ -109,64 +111,64 @@ public class PlanetExplorer {
 	}
 
 	public void updatePosition(String singleCommand) {
-		int updatedPositionX = positionX;
-		int updatedPositionY = positionY;
+		int updatedPosiX = posiX;
+		int updatedPosiY = posiY;
 
 		String[] directions = { "N", "E", "S", "W" };
 
 		// case FORWARD
 		if (singleCommand.equals("f")) {
 			if (direction.equals("N")) {
-				updatedPositionY += 1;
+				updatedPosiY += 1;
 			} else if (direction.equals("S")) {
-				updatedPositionY -= 1;
+				updatedPosiY -= 1;
 			} else if (direction.equals("E")) {
-				updatedPositionX += 1;
+				updatedPosiX += 1;
 			} else if (direction.equals("W")) {
-				updatedPositionX -= 1;
+				updatedPosiX -= 1;
 			}
 
-			if (updatedPositionX == -1) {
-				updatedPositionX = gridX - 1;
-			} else if (updatedPositionY == -0) {
-				updatedPositionY = gridY - 1;
-			} else if (updatedPositionX == gridX) {
-				updatedPositionX = 0;
-			} else if (updatedPositionY == gridY) {
-				updatedPositionY = 0;
+			if (updatedPosiX == -1) {
+				updatedPosiX = gridX - 1;
+			} else if (updatedPosiY == -0) {
+				updatedPosiY = gridY - 1;
+			} else if (updatedPosiX == gridX) {
+				updatedPosiX = 0;
+			} else if (updatedPosiY == gridY) {
+				updatedPosiY = 0;
 			}
 
-			if (validateNewPosition(updatedPositionX, updatedPositionY)) {
-				positionX = updatedPositionX;
-				positionY = updatedPositionY;
+			if (validateNewPosition(updatedPosiX, updatedPosiY)) {
+				posiX = updatedPosiX;
+				posiY = updatedPosiY;
 			}
 		}
 
 		// case BACKWARD
 		if (singleCommand.equals("b")) {
 			if (direction.equals("N")) {
-				updatedPositionY -= 1;
+				updatedPosiY -= 1;
 			} else if (direction.equals("S")) {
-				updatedPositionY += 1;
+				updatedPosiY += 1;
 			} else if (direction.equals("E")) {
-				updatedPositionX -= 1;
+				updatedPosiX -= 1;
 			} else if (direction.equals("W")) {
-				updatedPositionX += 1;
+				updatedPosiX += 1;
 			}
 
-			if (updatedPositionX == -1) {
-				updatedPositionX = gridX - 1;
-			} else if (updatedPositionY == -0) {
-				updatedPositionY = gridY - 1;
-			} else if (updatedPositionX == gridX) {
-				updatedPositionX = 0;
-			} else if (updatedPositionY == gridY) {
-				updatedPositionY = 0;
+			if (updatedPosiX == -1) {
+				updatedPosiX = gridX - 1;
+			} else if (updatedPosiY == -0) {
+				updatedPosiY = gridY - 1;
+			} else if (updatedPosiX == gridX) {
+				updatedPosiX = 0;
+			} else if (updatedPosiY == gridY) {
+				updatedPosiY = 0;
 			}
 
-			if (validateNewPosition(updatedPositionX, updatedPositionY)) {
-				positionX = updatedPositionX;
-				positionY = updatedPositionY;
+			if (validateNewPosition(updatedPosiX, updatedPosiY)) {
+				posiX = updatedPosiX;
+				posiY = updatedPosiY;
 			}
 		}
 
